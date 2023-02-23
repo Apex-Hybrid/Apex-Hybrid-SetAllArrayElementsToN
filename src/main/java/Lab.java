@@ -22,9 +22,9 @@ public class Lab {
      * @param n number that you will switch all numbers of arr to.
      * @return nothing, because of pass-by-reference, all changes will be reflected in the original array.
      */
-    public void set(int[] arr, int n){
+    public void set(int[] arr, int N){
         for (int i = 0; i < arr.length; i++) {
-            arr[i]= n;
+            arr[i]= N;
         }
     }
 }
